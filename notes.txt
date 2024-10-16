@@ -1,0 +1,39 @@
+Step 1:-
+
+What is the react Native ?
+    we can create both IOS and Android  apps using react native.(both by one  code)
+
+Step 2:-  Expo CLI(Framework is used to create react native apps.)
+
+Step 3 :- Setting development environment 
+
+-> node -v
+-> npm i -g expo-cli
+
+Extensions
+-> React Native Tools
+-> React-Native/React/Redux snippets for es6/es7
+-> prettier 
+->Material Icon Theme
+
+
+CREATE A PROJECT 
+
+ -> expo init marketing sales --> create a PROJECT
+ ->  blank               a minimal app as clean as an empty canvas -->? choose this  option
+-> cd  marketing    --> Go into the PROJECT
+->npm run dev 
+  install Expo go and scan the QR generated in the  terminal to see the app in your mobile device.
+
+
+Step 4:- OVERVIEW 
+
+Assests ---> it contain all the images ,videos , logos and all
+App.js --> it contain a js code are there is html code in it 
+-- view is like a DIV 
+-- text component is use to  display text on the screen 
+-- styles is use to style to the  component objects (js properties look like  css properties)
+
+
+
+
