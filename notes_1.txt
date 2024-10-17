@@ -1,0 +1,9 @@
+Step 1:-
+
+- npx create-expo-app@latest
+- y
+- cd business-directory
+- npm start 
+
+
+Step 2:- for Android studio follow mosh 2 hours tutorila video
