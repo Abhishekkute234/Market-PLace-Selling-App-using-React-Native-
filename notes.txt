@@ -34,6 +34,33 @@ App.js --> it contain a js code are there is html code in it
 -- text component is use to  display text on the screen 
 -- styles is use to style to the  component objects (js properties look like  css properties)
 
+Step 5 :- step up android studio
+-go to android studio
+-select the device
+-go to the more actions 
+-virtual devive manager 
+-select your device (Pixcel 3a )
+
+
+Step 6 :- TO run the project on the Virtual device 
+
+-run project (npm run )
+- press a (to run on the virtual Android)
+- make the changes according to you in project 
+- run the virtul device 
+- npm start
+- Press a │ open Android
+
+(the whole project will display on the virtual device )
 
 
 
+Step 7 :- We can see the error in the virtual devicers 
+
+press CTRL+ N and then JS debugger to see the error
+
+
+
+Step  8 :- Fix the error 
+
+cour compunents and APis
