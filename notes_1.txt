@@ -7,3 +7,30 @@ Step 1:-
 
 
 Step 2:- for Android studio follow mosh 2 hours tutorila video
+
+_layout.jsx we define all the tables present in the app 
+_layout.tsx  we define all the tables present in the app 
+
+in index.tsx  we import all the tables and render them in the app 
+screenOptions={{ headerShown: false }}this command is use to not to display the tab in screen
+
+Step 3:- 
+
+go to  business-directory\app\(tabs)\_layout.jsx
+ 
+
+To add icons go to https://icons.expo.fyi/Index 
+import the icon on the top and add it in tabbarIcon 
+<Tabs screenOptions={{ headerShown: false }}>    --> adding properties 
+      <Tabs.Screen
+        name="home"
+        options={{
+          tabBarLabel: "Home",
+          tabBarIcon: ({ color }) => (
+            <AntDesign name="home" size={24} color="blue" />  --> add icon here 
+          ),
+        }}
+      />
+
+
+
