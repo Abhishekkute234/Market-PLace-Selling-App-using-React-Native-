@@ -20,7 +20,8 @@ go to  business-directory\app\(tabs)\_layout.jsx
  
 
 To add icons go to https://icons.expo.fyi/Index 
-import the icon on the top and add it in tabbarIcon 
+import the icon on the top and add it in tabbarIcon \
+
 <Tabs screenOptions={{ headerShown: false }}>    --> adding properties 
       <Tabs.Screen
         name="home"
@@ -31,6 +32,67 @@ import the icon on the top and add it in tabbarIcon
           ),
         }}
       />
+
+
+Step 3:- 
+go to the google font
+dwonload the font you want
+paste it in the font folder 
+
+business-directory\app\_layout.tsx  --> paste our  font here 
+AnD paste it anywhere in the font family
+
+
+STEP 4 :- AUTHENTICATION SYSTEM (LOGIN PAGE)
+
+APP --> is AUTH --> YES --> app  is authenticaed 
+          |   
+          |
+          |
+         no ---> login screen 
+
+
+We use clerk AUTHENTICATION
+
+->> go to the  clerk dashboard 
+->> create a application an choose the authentication you want 
+->> then choose the expo framework 
+->> install clerk npm install @clerk/clerk-expo
+->>. copy the API key in .env file and paste it in .env file 
+
+follow the documenattion 
+import the clerk from documentation
+wrap it like this 
+
+ <ClerkProvider
+      publishableKey={process.env.EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY}
+    >
+      <SignedIn>
+        <Stack>
+          <Stack.Screen
+            name="(tabs)"
+            options={{
+              headerShown: false,
+            }}
+          />
+        </Stack>
+      </SignedIn>
+
+      <SignedOut>
+        <text>Signout</text>
+      </SignedOut>
+    </ClerkProvider>
+  );
+
+
+  this code means if the user get signIn the go to the tap 
+  otherwise sign out the page
+
+  see the login page care fully to see the styling 
+
+Step 5:- Connections  
+
+go to hooks and paste the particular file
 
 
 
